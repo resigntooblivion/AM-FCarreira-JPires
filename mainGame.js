@@ -128,7 +128,7 @@ function play() {
   let pipe_seperation = 0;
 
   // Constant value for the gap between two pipes
-  let pipe_gap = 35;
+  let pipe_gap = 50;
   function create_pipe() {
     if (game_state != 'Play') return;
 
